@@ -2,10 +2,10 @@ import { ChatStruct } from "./ChatStruct";
 import { useMsgStore } from "./store/store-message";
 
 export const ChatArea = () => {
-    const { messages, } = useMsgStore();
+    const { messages } = useMsgStore();
     return (
         <div className="flex flex-col gap-6">
-            <div className={`min-h-96 border rounded-lg border-gray-300 p-3 flex flex-col backdrop-blur-md`}>
+            <div className={`h-96 border rounded-lg border-gray-300 p-3 flex flex-col backdrop-blur-md overflow-y-scroll scrollbar-none`}>
                 {messages.map((item, index) => (
                     item.sender == "user" ? 
                     <div className="flex justify-end" key={index}>
@@ -19,7 +19,6 @@ export const ChatArea = () => {
                         </div>   
                     </div>
                 ))}
-                
             </div>
             <ChatStruct/>
         </div>

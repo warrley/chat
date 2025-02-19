@@ -9,8 +9,11 @@ export const ChatStruct = () => {
 
     const handleNewMsg = (e: React.KeyboardEvent<HTMLInputElement>) => {
         if (e.key === 'Enter') {
-            setMessages("user", msg);
-            setMsg('');
+            if (msg.trim().length > 0) {
+                setMessages("user", msg);
+                setMsg('');
+            } 
+            
         }
     }
     
