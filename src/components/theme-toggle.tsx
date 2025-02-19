@@ -18,7 +18,7 @@ export const ThemeToggle = () => {
   }
 
   return (
-    <Button className="absolute top-5 right-5"
+    <Button className="absolute top-2 right-2 size-6 md:top-5 md:right-5 md:size-8"
       variant="outline"
       size="icon"
       onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
