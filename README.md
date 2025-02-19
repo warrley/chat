@@ -1,36 +1,25 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Chat Simples
 
-## Getting Started
+Este é um simples hcta de interação.
 
-First, run the development server:
+<a href="https://chat-ashen-xi.vercel.app/">Clique para acessar o site</a> 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Tecnologias Usadas
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+-React  
+-Next  
+-Typescript  
+-Tailwind  
+-Shadcn-ui  
+-Zod  
+-Zustand  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Autor
+<a href="https://www.instagram.com/warleyfariaas/">Warley</a>
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Prévias
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Screenshot 2025-02-19 164250](https://github.com/user-attachments/assets/80ba6484-94d1-46e5-9fbf-463eab67f1cc)
+![Screenshot 2025-02-19 164359](https://github.com/user-attachments/assets/b26697ad-8655-4deb-995d-ed0f491cdac3)
+![Screenshot 2025-02-19 164339](https://github.com/user-attachments/assets/95cbc1b5-822e-4c32-a81d-6bbf00afb7fe)
+![Screenshot 2025-02-19 164351](https://github.com/user-attachments/assets/3b58d65a-b4f6-47e4-b29a-e641db86eb9d)
