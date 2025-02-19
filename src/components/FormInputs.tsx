@@ -37,7 +37,7 @@ export const FormInputs = () => {
                         render={({ field }) => (
                             <FormItem>
                                 <FormControl>
-                                    <Input className="h-8 md:h-12 md:text-xl" placeholder="enter your name" {...field} />
+                                    <Input className="h-12 md:text-xl" placeholder="enter your name" {...field} />
                                 </FormControl>
                                 <FormMessage/>
                             </FormItem>

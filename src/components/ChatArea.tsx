@@ -5,7 +5,7 @@ export const ChatArea = () => {
     const { messages } = useMsgStore();
     return (
         <div className="flex flex-col gap-6">
-            <div className={`max-h-96 min-h-60 border transition-all duration-100 rounded-lg border-gray-300 p-3 flex flex-col backdrop-blur-md overflow-y-scroll scrollbar-none`}>
+            <div className={`max-h-96 min-h-60 border transition-all duration-100 rounded-xl border-gray-300 p-3 flex flex-col backdrop-blur-md overflow-y-scroll scrollbar-none`}>
                 {messages.map((item, index) => (
                     item.sender == "user" ? 
                     <div className="flex justify-end" key={index}>
