@@ -1,6 +1,6 @@
 # Chat Simples
 
-Este é um simples hcta de interação.
+Este é um simples chat de interação.
 
 <a href="https://chat-ashen-xi.vercel.app/">Clique para acessar o site</a> 
 
